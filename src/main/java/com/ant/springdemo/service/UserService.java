@@ -16,8 +16,8 @@ public class UserService {
     private UserRepository userRepository;
 
     //create
-    public User addUser(User user){
-        return userRepository.save(user);
+    public User addUser(User user1){
+        return userRepository.save(user1);
     }
 
     // read user
